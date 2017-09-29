@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="top">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.abida.ids_new.FAQ"
+        android:weightSum="1"
+        android:background="#f10a0a0a">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@android:dimen/app_icon_size"
+            android:text="Difference between DFS and IDS : \n "
+            android:textColorHighlight="#ff00ff"
+            android:textColor="#ff00ff"
+            android:id="@+id/f1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHighlight="#D490C4"
+            android:textColor="#D490C4"
+            android:text="DFS is not guaranteed to find an optimal path; iterative deepening is\n\n.
+                DFS may explore the entire graph before finding the target node; iterative deepening only does this if the distance between the start and end node is the maximum in the graph\n\n.
+                \n\nThe reason that this is different from a DFS is that it never runs into the case where it takes an extremely long and circuitous path around the graph without ever terminating. The lengths of the paths are always capped, so we never end up exploring unnecessary branches.\n\n"
+            android:id="@+id/f2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@android:dimen/app_icon_size"
+            android:text="Difference between BFS and IDS : \n "
+            android:textColorHighlight="#ff00ff"
+            android:textColor="#ff00ff"
+            android:id="@+id/f3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHighlight="#D490C4"
+            android:textColor="#D490C4"
+            android:text="The reason that this is different from BFS is that in a BFS, you have to hold all of the fringe nodes in memory at once.\n\nBFS and iterative deepening both run in O(bd), but iterative deepening has a higher constant factor.\n\n
+BFS uses O(b^d) memory, while iterative deepening uses only O(d)\n\n"
+            android:id="@+id/f4"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@android:dimen/app_icon_size"
+            android:text="Problem of depth first searching \n "
+            android:textColorHighlight="#ff00ff"
+            android:textColor="#ff00ff"
+            android:id="@+id/f5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHighlight="#D490C4"
+            android:textColor="#D490C4"
+            android:text="In a depth-first search, you begin at some node in the graph and continuously explore deeper and deeper into the graph while you can find new nodes that you haven't yet reached (or until you find the solution). Any time the DFS runs out of moves, it backtracks to the latest point where it could make a different choice, then explores out from there. This can be a serious problem if your graph is extremely large and there's only one solution, since you might end up exploring the entire graph along one DFS path only to find the solution after looking at each node. Worse, if the graph is infinite (perhaps your graph consists of all the numbers, for example), the search might not terminate. Moreover, once you find the node you're looking for, you might not have the optimal path to it (you could have looped all over the graph looking for the solution even though it was right next to the start node!))\n\n"
+            android:id="@+id/f6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@android:dimen/app_icon_size"
+            android:text="How can IDS solve it?\n "
+            android:textColorHighlight="#ff00ff"
+            android:textColor="#ff00ff"
+            android:id="@+id/f7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHighlight="#D490C4"
+            android:textColor="#D490C4"
+            android:text="The idea behind iterative deepening is to use this second approach but to keep increasing the depth at each level. In other words, we might try exploring using all paths of length one, then all paths of length two, then length three, etc. until we end up finding the node in question. This means that we never end up exploring along infinite dead-end paths, since the length of each path is capped by some length at each step. It also means that we find the shortest possible path to the destination node, since if we didn't find the node at depth d but did find it at depth d + 1, there can't be a path of length d (or we would have taken it), so the path of length d + 1 is indeed optimal.\n\n"
+            android:id="@+id/f8"
+            />
+
+
+</LinearLayout>
+    </ScrollView>

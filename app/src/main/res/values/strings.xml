@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IDS_new</string>
+    <string name="title_activity_my_animation_drawable">MyAnimationDrawable</string>
+    <string name="title_activity_credits">credits</string>
+</resources>

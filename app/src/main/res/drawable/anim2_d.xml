@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+    <item android:drawable="@drawable/g2_a1" android:duration="1000" />
+    <item android:drawable="@drawable/g2_a2" android:duration="1000" />
+
+    <item android:drawable="@drawable/g2_b0" android:duration="1000" />
+    <item android:drawable="@drawable/g2_a2" android:duration="1000" />
+
+    <item android:drawable="@drawable/g2_b1" android:duration="1000" />
+
+    <item android:drawable="@drawable/g2_b02" android:duration="1000" />
+    <item android:drawable="@drawable/g2_b2" android:duration="100" />
+    <item android:drawable="@drawable/g2_b3" android:duration="100" />
+    <item android:drawable="@drawable/g2_b4" android:duration="100" />
+    <item android:drawable="@drawable/g2_b5" android:duration="100" />
+    <item android:drawable="@drawable/g2_b6" android:duration="100" />
+    <item android:drawable="@drawable/g2_b7" android:duration="500" />
+
+    <item android:drawable="@drawable/g2_c1" android:duration="1000" />
+    <item android:drawable="@drawable/g2_c2" android:duration="100" />
+    <item android:drawable="@drawable/g2_c3" android:duration="100" />
+    <item android:drawable="@drawable/g2_c4" android:duration="100" />
+    <item android:drawable="@drawable/g2_c5" android:duration="500" />
+
+    <item android:drawable="@drawable/g2_d0" android:duration="1000" />
+    <item android:drawable="@drawable/g2_a2" android:duration="1000" />
+
+    <item android:drawable="@drawable/g2_b1" android:duration="1000" />
+
+    <item android:drawable="@drawable/g2_b02" android:duration="1000" />
+    <item android:drawable="@drawable/g2_b2" android:duration="100" />
+    <item android:drawable="@drawable/g2_b3" android:duration="100" />
+    <item android:drawable="@drawable/g2_b4" android:duration="100" />
+    <item android:drawable="@drawable/g2_b5" android:duration="100" />
+    <item android:drawable="@drawable/g2_b6" android:duration="100" />
+    <item android:drawable="@drawable/g2_b7" android:duration="500" />
+
+    <item android:drawable="@drawable/g2_c1" android:duration="1000" />
+    <item android:drawable="@drawable/g2_c2" android:duration="100" />
+    <item android:drawable="@drawable/g2_c3" android:duration="100" />
+    <item android:drawable="@drawable/g2_c4" android:duration="100" />
+    <item android:drawable="@drawable/g2_c5" android:duration="500" />
+
+
+    <item android:drawable="@drawable/g2_d1" android:duration="1000" />
+    <item android:drawable="@drawable/g2_d2" android:duration="1000" />
+    <item android:drawable="@drawable/g2_d3" android:duration="100" />
+    <item android:drawable="@drawable/g2_d4" android:duration="100" />
+    <item android:drawable="@drawable/g2_d5" android:duration="100" />
+    <item android:drawable="@drawable/g2_d6" android:duration="100" />
+    <item android:drawable="@drawable/g2_dfnd" android:duration="1000" />
+</animation-list>

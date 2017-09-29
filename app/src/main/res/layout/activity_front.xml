@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context="com.example.abida.ids_new.front"
+
+    >
+
+
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Theory"
+        android:id="@+id/b1"
+        android:textColor="@android:color/white"
+        android:background="@drawable/b2"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Animation"
+        android:id="@+id/b2"
+        android:textColor="@android:color/white"
+        android:background="@drawable/b2"
+        />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="FAQ"
+        android:id="@+id/b3"
+        android:textColor="@android:color/white"
+        android:background="@drawable/b2"
+        />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Credit"
+        android:id="@+id/b5"
+        android:textColor="@android:color/white"
+        android:background="@drawable/b2"
+        />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="EXIT"
+        android:id="@+id/b4"
+        android:textColor="@android:color/white"
+        android:background="@drawable/b2"
+        />
+
+
+
+</LinearLayout>

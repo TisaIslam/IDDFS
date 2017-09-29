@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abida.ids_new" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="IDFS"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".theory" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.theory" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".input" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.input" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".animatn" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.animatn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".front" >
+        </activity>
+        <activity android:name=".FAQ" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.FAQ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".credits" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.credits" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyAnimationDrawable"
+            android:label="@string/title_activity_my_animation_drawable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".g2_animatn" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.g2_animatn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".select_graph" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.select_graph" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".input2" >
+            <intent-filter>
+                <action android:name="com.example.abida.ids_new.credits" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".input3" >
+        </activity>
+        <activity android:name=".g3_animatn" >
+        </activity>
+    </application>
+
+</manifest>

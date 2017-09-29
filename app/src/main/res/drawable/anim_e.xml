@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+    <item android:drawable="@drawable/a_0" android:duration="1000" />
+    <item android:drawable="@drawable/a_fnd" android:duration="1000" />
+    <item android:drawable="@drawable/a_1" android:duration="1000" />
+    <item android:drawable="@drawable/a_fnd" android:duration="1000" />
+    <item android:drawable="@drawable/b_ex1" android:duration="700" />
+    <item android:drawable="@drawable/b_ex2" android:duration="100" />
+    <item android:drawable="@drawable/b_ex3" android:duration="100" />
+    <item android:drawable="@drawable/b_ex4" android:duration="100" />
+    <item android:drawable="@drawable/b_ex5" android:duration="1000" />
+    <item android:drawable="@drawable/b_fnd" android:duration="1000" />
+    \
+    <item android:drawable="@drawable/c_ex1" android:duration="700" />
+    <item android:drawable="@drawable/c_ex2" android:duration="100" />
+    <item android:drawable="@drawable/c_ex3" android:duration="100" />
+    <item android:drawable="@drawable/c_ex4" android:duration="100" />
+    <item android:drawable="@drawable/c_ex5" android:duration="100" />
+    <item android:drawable="@drawable/c_fnd" android:duration="1000" />
+
+
+    <item android:drawable="@drawable/a_2" android:duration="1000" />
+    <item android:drawable="@drawable/a_fnd" android:duration="1000" />
+    <item android:drawable="@drawable/b_ex1" android:duration="700" />
+    <item android:drawable="@drawable/b_ex2" android:duration="100" />
+    <item android:drawable="@drawable/b_ex3" android:duration="100" />
+    <item android:drawable="@drawable/b_ex4" android:duration="100" />
+    <item android:drawable="@drawable/b_ex5" android:duration="1000" />
+    <item android:drawable="@drawable/b_fnd" android:duration="1000" />
+
+    <item android:drawable="@drawable/c_ex1" android:duration="700" />
+    <item android:drawable="@drawable/c_ex2" android:duration="100" />
+    <item android:drawable="@drawable/c_ex3" android:duration="100" />
+    <item android:drawable="@drawable/c_ex4" android:duration="100" />
+    <item android:drawable="@drawable/c_ex5" android:duration="1000" />
+    <item android:drawable="@drawable/c_fnd" android:duration="1000" />
+
+    <item android:drawable="@drawable/d_ex1" android:duration="700" />
+    <item android:drawable="@drawable/d_ex2" android:duration="100" />
+    <item android:drawable="@drawable/d_ex3" android:duration="100" />
+    <item android:drawable="@drawable/d_ex4" android:duration="100" />
+    <item android:drawable="@drawable/d_ex5" android:duration="1000" />
+    <item android:drawable="@drawable/d_fnd" android:duration="1000" />
+
+    <item android:drawable="@drawable/e_ex1" android:duration="700" />
+    <item android:drawable="@drawable/e_ex2" android:duration="100" />
+    <item android:drawable="@drawable/e_ex3" android:duration="100" />
+    <item android:drawable="@drawable/e_ex4" android:duration="100" />
+    <item android:drawable="@drawable/e_ex5" android:duration="1000" />
+    <item android:drawable="@drawable/e_fnd" android:duration="1000" />
+
+   
+    <item android:drawable="@drawable/egot" android:duration="1000" />
+
+</animation-list>
